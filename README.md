@@ -6,7 +6,7 @@ Example from Solana Anchor [Onchain Development](https://solana.com/developers/c
 avm use 0.29.0
 anchor keys sync
 anchor build
-solana program deploy target/deploy/pda_local.so
+solana program deploy target/deploy/anchor_counter.so
 ```
 
 ## Scripts
