@@ -1,3 +1,5 @@
+Example from Solana Anchor [Onchain Development](https://solana.com/developers/courses/onchain-development) course.
+
 ## Program
 
 ```bash
@@ -9,7 +11,7 @@ solana program deploy target/deploy/pda_local.so
 
 ## Scripts
 
-[client-gen](https://kevinheavey.github.io/anchorpy/clientgen/) generates a Python client based on an Anchor IDL
+[client-gen](https://kevinheavey.github.io/anchorpy/clientgen/) generates a Python client based on an Anchor IDL.
 ```bash
 cd scripts
 python3 -m venv venv
