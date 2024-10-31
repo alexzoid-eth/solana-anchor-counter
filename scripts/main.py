@@ -18,7 +18,7 @@ async def main():
     client = AsyncClient("https://api.devnet.solana.com", commitment=Confirmed)
     
     # Load wallet from JSON file
-    with open("/home/zoid/.config/solana/id.json", 'r') as f:
+    with open(os.path.expanduser("~/.config/solana/id.json"), 'r') as f:
         keypair_data = json.load(f)
     payer = Keypair.from_bytes(bytes(keypair_data))
     
