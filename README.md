@@ -11,7 +11,7 @@ solana program deploy target/deploy/anchor_counter.so
 
 ## Scripts
 
-[client-gen](https://kevinheavey.github.io/anchorpy/clientgen/) generates a Python client based on an Anchor IDL. Change %PROGRAM_ID% with deployed program id.
+[client-gen](https://kevinheavey.github.io/anchorpy/clientgen/) generates a Python client based on an Anchor IDL. Change `%PROGRAM_ID%` with deployed program id.
 ```bash
 cd scripts
 python3 -m venv venv
